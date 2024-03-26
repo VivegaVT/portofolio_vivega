@@ -1,7 +1,13 @@
-body {
+body, html {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    height: 100%;
+}
+
+.container {
+    min-height: 100vh; /* Use min-height instead of height */
+    overflow-y: auto; 
 }
 
 header {
@@ -44,6 +50,7 @@ footer {
 #project3 {
     background-color: #78e6fa; 
 }
+
 .project:hover {
     transform: scale(1.05);
 }
@@ -63,4 +70,9 @@ footer {
     padding: 10px;
     margin-bottom: 20px;
     transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+/* Add margin to the last project to create space for the footer */
+.project:last-child {
+    margin-bottom: 70px; /* Adjust as needed based on the height of your footer */
 }
