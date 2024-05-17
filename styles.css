@@ -6,7 +6,7 @@ body, html {
 }
 
 .container {
-    min-height: 100vh; /* Use min-height instead of height */
+    min-height: 100vh; 
     overflow-y: auto; 
 }
 
@@ -49,6 +49,10 @@ footer {
 
 #project3 {
     background-color: #78e6fa; 
+}
+
+#project4 {
+    background-color: hsl(271, 93%, 73%); 
 }
 
 .project:hover {
