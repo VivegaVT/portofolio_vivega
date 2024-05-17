@@ -26,30 +26,6 @@ header {
     padding: 0 20px;
 }
 
-#name-title {
-    display: inline-block; /* Keep the title inline-block */
-    position: relative; /* Required for the absolute positioning of the description */
-}
-
-#description {
-    display: none;
-    position: absolute;
-    top: 100%; /* Position below the title */
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%); /* Adjust to center */
-    background-color: #fff;
-    color: #000; /* Ensure text color is black */
-    border: 1px solid #ccc;
-    padding: 10px;
-    width: 300px;
-    z-index: 1000;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-#name-title:hover #description {
-    display: block;
-}
-
 section {
     max-width: 800px;
     margin: 20px auto;
